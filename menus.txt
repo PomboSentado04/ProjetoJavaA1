@@ -1,0 +1,25 @@
+========== MENU PRINCIPAL ==========
+1. Submenu: Pessoas e Endereços
+2. Submenu: Produtos
+3. Submenu: Pedidos de Venda
+0. Sair do Sistema
+====================================
+---------- SUBMENU: PESSOAS ----------
+1. Cadastrar/Atualizar Pessoa
+2. Listar Pessoas
+3. Excluir Pessoa
+4. Gerenciar Endereços da Pessoa
+0. Voltar ao Menu Principal
+--------------------------------------
+---------- SUBMENU: PRODUTOS ----------
+1. Cadastrar/Atualizar Produto
+2. Listar Produtos
+3. Excluir Produto
+0. Voltar ao Menu Principal
+---------------------------------------
+---------- SUBMENU: PEDIDOS ----------
+1. Criar/Atualizar Pedido de Venda
+2. Listar Pedidos
+3. Excluir Pedido
+0. Voltar ao Menu Principal
+--------------------------------------
