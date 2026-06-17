@@ -6,7 +6,6 @@ import repository.*;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
@@ -51,7 +50,6 @@ public class Main {
         } while (opcao != 0);
     }
 
-    // --- SUBMENU: PESSOAS ---
     private static void executarSubmenuPessoas() {
         int opcao;
         do {
@@ -143,7 +141,6 @@ public class Main {
         }
     }
 
-    // --- SUBMENU: PRODUTOS ---
     private static void executarSubmenuProdutos() {
         int opcao;
         do {
@@ -196,7 +193,6 @@ public class Main {
         else System.out.println("Produto não encontrado.");
     }
 
-    // --- SUBMENU: PEDIDOS ---
     private static void executarSubmenuPedidos() {
         int opcao;
         do {
@@ -284,7 +280,6 @@ public class Main {
         else System.out.println("Pedido não encontrado.");
     }
 
-    // --- UTILITÁRIOS DE LEITURA (PREVINE ERROS NO CONSOLE) ---
     private static int lerInteiro() {
         while (true) {
             try {

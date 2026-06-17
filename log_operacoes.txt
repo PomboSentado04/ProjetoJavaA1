@@ -1,5 +1,0 @@
-[2026-06-14 20:09:35] Salvar/Atualizar Pessoa ID: 1 - Nome: Pedro
-[2026-06-14 20:14:20] Salvar/Atualizar Pessoa ID: 1 - Nome: Pedro
-[2026-06-14 20:19:33] Salvar/Atualizar Produto ID: 32 - Cenora
-[2026-06-14 20:23:29] Exclusão de Produto ID: 32
-[2026-06-14 20:24:02] Salvar/Atualizar Produto ID: 6 - PENE
