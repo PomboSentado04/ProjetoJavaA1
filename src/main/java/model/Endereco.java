@@ -7,7 +7,7 @@ public class Endereco implements Serializable {
     private String logradouro;
     private String numero;
     private String complemento;
-    private String tipoEndereco; // comercial, residencial, entrega, etc.
+    private String tipoEndereco;
 
     public Endereco(String cep, String logradouro, String numero, String complemento, String tipoEndereco) {
         this.cep = cep;
@@ -17,7 +17,6 @@ public class Endereco implements Serializable {
         this.tipoEndereco = tipoEndereco;
     }
 
-    // Getters e Setters
     public String getCep() { return cep; }
     public void setCep(String cep) { this.cep = cep; }
     public String getLogradouro() { return logradouro; }

@@ -17,7 +17,6 @@ public class Produto implements Serializable {
         this.codigoFornecedor = codigoFornecedor;
     }
 
-    // Getters e Setters
     public int getCodigo() { return codigo; }
     public void setCodigo(int codigo) { this.codigo = codigo; }
     public String getDescricao() { return descricao; }

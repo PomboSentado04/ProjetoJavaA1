@@ -28,7 +28,6 @@ public class PedidoVenda implements Serializable {
         this.montanteTotal = this.produtos.stream().mapToDouble(Produto::getPrecoVenda).sum();
     }
 
-    // Getters e Setters
     public int getNumeroPedido() { return numeroPedido; }
     public void setNumeroPedido(int numeroPedido) { this.numeroPedido = numeroPedido; }
     public Pessoa getCliente() { return cliente; }

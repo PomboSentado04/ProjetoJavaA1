@@ -17,12 +17,10 @@ public class Pessoa implements Serializable {
         this.enderecos = new ArrayList<>();
     }
 
-    // Encapsulamento de comportamentos da lista
     public void adicionarEndereco(Endereco endereco) {
         this.enderecos.add(endereco);
     }
 
-    // Getters e Setters
     public int getCodigo() { return codigo; }
     public void setCodigo(int codigo) { this.codigo = codigo; }
     public String getNome() { return nome; }
